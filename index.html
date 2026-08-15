@@ -2,140 +2,152 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Allan Fernandes — AI-driven automation, internal knowledge systems and product thinking.">
-<title>Allan Fernandes — AI × Automation × Product</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allan Fernandes — Product Builder</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar">
-  <a class="logo" href="#home">AF<span>.</span></a>
-  <nav><a href="#work">Work</a><a href="#case-study">Case Study</a><a href="#about">About</a><a href="#beyond">Beyond Work</a></nav>
-  <a class="nav-cta" href="mailto:allanwork3112@gmail.com">Let's talk ↗</a>
-</header>
-
-<main id="home">
-<section class="hero">
-  <div class="eyebrow">ALLAN FERNANDES · AI · AUTOMATION · PRODUCT</div>
-  <h1>I build <span>AI-driven automation</span> and internal knowledge systems that scale team productivity and standardize data-driven decision-making.</h1>
-  <p class="lead">I'm an analytics and applied-AI professional who enjoys taking ambiguous problems, finding the real friction, and turning it into practical systems people can actually use.</p>
-  <div class="actions"><a class="btn dark" href="#work">Explore my work ↓</a><a class="btn light" href="#case-study">View PharmEasy case study</a></div>
-  <div class="current"><div><b>Currently</b> Quant Analyst @ JPMorgan Chase</div><div><b>Previously</b> Business Analyst @ Arcon Pvt Tech Solution</div></div>
-</section>
-
-<section class="strip">
-  <div><small>01</small><b>AI & AUTOMATION</b><span>LLMs · RAG · Prompt Engineering · Evaluation · Automation</span></div>
-  <div><small>02</small><b>DATA & ANALYTICS</b><span>Python · SQL · BigQuery · Alteryx · Data-driven problem solving</span></div>
-  <div><small>03</small><b>PRODUCT EXECUTION</b><span>Roadmaps · FRS · Agile · UAT · Stakeholder collaboration</span></div>
-</section>
-
-<section id="work" class="section">
-  <div class="section-head"><div><label>01 / WORK & PROJECTS</label><h2>Things I've worked on.</h2></div><p>Two projects, two different problems. Both taught me that building the thing is only part of the job.</p></div>
-
-  <article class="feature">
-    <div class="feature-top"><span>INTERNAL PRODUCT · AUTOMATION</span><span>RSAR SMART STACK</span></div>
-    <div class="feature-main">
-      <div><p class="index">01</p><h3>RSAR<br>Smart Stack</h3><p class="sub">Building a productivity platform — and learning what actually drives adoption.</p><a class="arrow-link" href="#rsar">Read project <span>↗</span></a></div>
-      <div class="feature-copy">
-        <p><b>The challenge</b></p><p>V1 combined Python utilities with AI/LLM use cases. Production AI tollgates slowed experimentation, while team usage remained low.</p>
-        <p><b>The product decision</b></p><p>Remove AI from the scope and focus on a practical central platform that could ship, learn and improve quickly.</p>
-        <div class="mini-tags"><em>Python</em><em>Automation</em><em>Internal Product</em><em>Adoption</em></div>
+<header class="site-header">
+  <a class="brand" href="#top">AF</a>
+  <nav class="desktop-nav" aria-label="Primary navigation">
+    <div class="nav-group"><button type="button">Work <span>⌄</span></button>
+      <div class="dropdown">
+        <a href="#rsar"><strong>RSAR Smart Stack</strong><small>Team productivity platform</small></a>
+        <a href="#knowledge"><strong>Knowledge Base Connect</strong><small>Internal knowledge system</small></a>
+        <a href="#pharmeasy"><strong>PharmEasy</strong><small>Consumer product concept</small></a>
       </div>
     </div>
-  </article>
-
-  <article class="project">
-    <div class="project-number">02</div>
-    <div>
-      <div class="feature-top"><span>APPLIED AI · RAG</span><span>KNOWLEDGE BASE CONNECT</span></div>
-      <h3>Knowledge Base Connect</h3>
-      <p>Worked on an internal RAG-based system designed to provide accurate, citation-backed responses from large document repositories for audit use cases.</p>
-      <div class="project-details"><span>40–50 structured test questions</span><span>~5 hours saved per inventory</span><span>Audit stakeholder validation</span></div>
-      <a class="arrow-link" href="#knowledge">Explore project <span>↗</span></a>
+    <div class="nav-group"><button type="button">About <span>⌄</span></button>
+      <div class="dropdown">
+        <a href="#method">How I Work</a><a href="#career">Career Journey</a><a href="#beyond">Beyond Work</a><a href="#writing">Writing &amp; Sharing</a>
+      </div>
     </div>
+    <div class="nav-group"><button type="button">Contact <span>⌄</span></button>
+      <div class="dropdown right"><a href="mailto:YOUR_EMAIL@example.com">Email me</a><a href="https://topmate.io/YOUR_TOPMATE" target="_blank">Topmate ↗</a></div>
+    </div>
+  </nav>
+  <a class="header-cta" href="mailto:YOUR_EMAIL@example.com">Email me</a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">Menu</button>
+</header>
+
+<div id="mobile-menu" class="mobile-menu" hidden>
+  <div class="mobile-group"><button class="mobile-parent" aria-expanded="false">WORK <span>+</span></button>
+    <div class="mobile-sub"><a href="#rsar">RSAR Smart Stack</a><a href="#knowledge">Knowledge Base Connect</a><a href="#pharmeasy">PharmEasy</a></div></div>
+  <div class="mobile-group"><button class="mobile-parent" aria-expanded="false">ABOUT <span>+</span></button>
+    <div class="mobile-sub"><a href="#method">How I Work</a><a href="#career">Career Journey</a><a href="#beyond">Beyond Work</a><a href="#writing">Writing &amp; Sharing</a></div></div>
+  <div class="mobile-group"><button class="mobile-parent" aria-expanded="false">CONTACT <span>+</span></button>
+    <div class="mobile-sub"><a href="mailto:YOUR_EMAIL@example.com">Email me</a><a href="https://topmate.io/YOUR_TOPMATE" target="_blank">Topmate ↗</a></div></div>
+</div>
+
+<main id="top">
+<section class="hero container">
+  <p class="eyebrow">QUANT ANALYST ASSOCIATE · JPMORGAN CHASE</p>
+  <h1>Hi, I’m Allan.</h1>
+  <p class="hero-role">Product Builder · LLMs · Automation · Data</p>
+  <p class="hero-copy">I use LLMs to ideate, brainstorm and prototype solutions, then turn useful ideas into practical automations and internal products.</p>
+  <div class="hero-actions"><a class="button primary" href="#work">See my work</a><a class="text-link" href="#career">My journey ↓</a></div>
+</section>
+
+<section id="work" class="section container">
+  <div class="section-intro"><p class="eyebrow">SELECTED WORK</p><h2>Building useful things is only half the job.</h2><p>I’m most interested in the decisions behind what gets built, what gets cut, and what makes people actually use it.</p></div>
+
+  <article id="rsar" class="featured-case">
+    <div class="case-meta"><span>01</span><span>INTERNAL PRODUCT · INDIA + US</span></div>
+    <h3>RSAR Smart Stack</h3>
+    <p class="case-tagline">What happens when the easiest thing to build isn't the hardest problem to solve?</p>
+    <p class="case-lead">The Smart Stack became a team productivity platform across India and the US. The interesting part wasn't the repository. It was deciding what belonged in it, removing a dependency that slowed learning, and making adoption part of the product.</p>
+    <div class="decision-grid">
+      <div><span class="label">01 · WHAT WAS BROKEN?</span><p>Useful Python utilities and productivity ideas existed, but there was no central, easy-to-adopt platform for the team. The first version also mixed utilities with AI use cases, creating production dependencies before the core product had been validated.</p></div>
+      <div><span class="label">02 · WHAT DID I DECIDE — AND NOT DO?</span><p>I removed AI from the initial scope. The goal was to experiment fast, learn from usage, and avoid letting production AI tollgates become the bottleneck. I also introduced an intake lens around usage, time spent, potential time saved and people impacted before adding tools.</p></div>
+      <div><span class="label">03 · WHAT SHIPPED?</span><p>A Python-only central utility platform, a contributor-friendly structure with README guidance and standards, automated environment setup, monthly release notes and live demos to drive awareness and adoption.</p></div>
+      <div><span class="label">04 · WHAT CHANGED?</span><p>The project evolved from “a repository of tools” into a repeatable team productivity platform. Adoption, contribution and feedback became part of the product rather than activities that happened after launch.</p></div>
+    </div>
+    <div class="case-reflection"><span class="label">WHAT I LEARNED</span><p>The hardest product problem was not building the central repository. It was deciding what deserved to exist inside it and creating a loop that made people return, contribute and improve it.</p></div>
+  </article>
+
+  <article id="knowledge" class="system-case">
+    <div class="case-meta"><span>02</span><span>AI &amp; KNOWLEDGE SYSTEM</span></div>
+    <h3>Knowledge Base Connect</h3>
+    <p class="system-subtitle">Making internal knowledge easier to discover, understand and use.</p>
+    <div class="system-flow">
+      <div><strong>Knowledge</strong><span>Reports · databases · tables · business meaning</span></div>
+      <div><strong>Retrieval</strong><span>Relevant context is surfaced for the question</span></div>
+      <div><strong>Workbench</strong><span>Employees ask questions through a new portal</span></div>
+      <div><strong>Assistance</strong><span>LLM-supported answers help development and discovery</span></div>
+    </div>
+    <p class="system-note"><b>Current focus:</b> building a report knowledge base connecting databases and tables with their business meaning. Full project details will be added later.</p>
   </article>
 </section>
 
-<section id="rsar" class="case-section">
-<div class="section">
-<label>RSAR SMART STACK / DEEP DIVE</label>
-<h2 class="display">What happens when the easiest thing to build isn't the hardest problem to solve?</h2>
-<p class="intro">The Smart Stack became a team productivity platform across India and the US. The interesting part wasn't the repository. It was deciding what belonged in it, removing a dependency that slowed learning, and making adoption part of the product.</p>
-<div class="story">
-  <div><span>01 / V1</span><h3>What didn't work</h3><p>The first version combined Python tools, saved prompts and LLM use cases such as BRD generation. AI integration introduced production tollgates, while team usage was limited.</p></div>
-  <div><span>02 / DECISION</span><h3>Remove AI from scope</h3><p>The goal shifted from "use AI" to "experiment fast, fail fast, learn fast." A central utility platform could provide immediate value without waiting on AI integration.</p></div>
-  <div><span>03 / PRIORITIZATION</span><h3>Decide what gets built</h3><p>Tool intake considered time spent, monthly usage, potential time savings and the number of people impacted.</p></div>
-  <div><span>04 / ADOPTION</span><h3>Make usage part of the product</h3><p>Tools were integrated into Smart Stack, feedback was collected directly, and new releases were demonstrated through Teams meetings and monthly release notes.</p></div>
-  <div><span>05 / SCALE</span><h3>Make contribution easier</h3><p>A simple open contribution model, README guidance and coding standards helped make the platform something the wider team could contribute to.</p></div>
-  <div><span>06 / ACCESS</span><h3>Remove setup friction</h3><p>A shared-drive batch setup process installed libraries, WebDriver and ChromeDriver so users didn't have to be Python-environment experts.</p></div>
-</div>
-<div class="loop"><span>IDENTIFY</span><b>→</b><span>EVALUATE</span><b>→</b><span>BUILD</span><b>→</b><span>RELEASE</span><b>→</b><span>FEEDBACK</span><b>→</b><span>IMPROVE</span></div>
-<div class="lesson"><b>The lesson</b><p>A useful product isn't just something you can build. It's something people can adopt, contribute to and continue getting value from.</p></div>
-</div>
+<section id="pharmeasy" class="section container">
+  <div class="section-intro"><p class="eyebrow">PRODUCT THINKING</p><h2>One consumer product problem, explored end to end.</h2></div>
+  <article class="consumer-case">
+    <div class="case-meta"><span>03</span><span>CONSUMER PRODUCT · CONCEPT</span></div>
+    <h3>PharmEasy</h3><p class="case-tagline">Improving retention through automated medication management.</p>
+    <div class="decision-grid">
+      <div><span class="label">01 · WHAT WAS BROKEN?</span><p>Chronic patients can struggle with recurring medication management, creating friction around remembering doses and re-ordering medication after the first purchase.</p></div>
+      <div><span class="label">02 · WHAT DID I DECIDE — AND NOT DO?</span><p>I evaluated multiple directions and prioritized an integrated Reminder &amp; Stock Management System over a social “Family Track” dashboard.</p></div>
+      <div><span class="label">03 · WHAT WOULD SHIP?</span><p>A Reminder Tab that deducts medication stock based on daily dosage and alerts users when fewer than 10 days remain.</p></div>
+      <div><span class="label">04 · WHAT WOULD CHANGE?</span><p>If shipped, I would measure notification click-through and churn after the “Reminder to Buy” alert.</p></div>
+    </div>
+    <a class="button secondary" href="https://github.com/Allanfernandes248/PharmEasy_Case_Study_Building_solutions_for_recurring_customers/blob/main/PharmEasy%20Case%20Study.pdf" target="_blank">Read the full case study ↗</a>
+  </article>
 </section>
 
-<section id="knowledge" class="section">
-<div class="section-head"><div><label>KNOWLEDGE BASE CONNECT / DEEP DIVE</label><h2>Making enterprise knowledge easier to find and trust.</h2></div></div>
-<div class="kb-grid"><div class="kb-main">
-<h3>The problem</h3><p>Large enterprise document repositories contain the information people need, but manually finding the right answer can be time-consuming. For audit-related use cases, an answer also needed to be grounded, citation-backed and aligned with audit expectations.</p>
-<h3>The approach</h3><p>Worked with an internal RAG-based LLM platform to enable responses from large document repositories. Work included structured prompts, business rules, output constraints, Python preprocessing, metadata enrichment and document optimization.</p>
-</div><aside><div><strong>40–50</strong><span>structured test questions</span></div><div><strong>~5 hrs</strong><span>time saved per inventory</span></div><div><strong>HITL</strong><span>audit & business validation</span></div></aside></div>
-<div class="evaluation"><span>EVALUATION</span><p>Test cases were used to identify hallucinations, retrieval problems and output inconsistencies. Prompts and configurations were iterated with audit reviewers and business stakeholders.</p></div>
+<section id="method" class="section container">
+  <div class="section-intro"><p class="eyebrow">HOW I WORK</p><h2>A simple loop I keep coming back to.</h2></div>
+  <div class="method-grid">
+    <div><span>01</span><h3>Find friction</h3><p>Look for repetitive, manual or confusing parts of a workflow.</p></div>
+    <div><span>02</span><h3>Question assumptions</h3><p>Understand the underlying problem before committing to the requested solution.</p></div>
+    <div><span>03</span><h3>Prototype quickly</h3><p>Use LLMs, Python, Alteryx, SQL or whatever gets an idea into something testable.</p></div>
+    <div><span>04</span><h3>Learn from usage</h3><p>A feature is not finished simply because it has shipped.</p></div>
+  </div>
 </section>
 
-<section id="case-study" class="section case-study">
-<div class="section-head"><div><label>02 / PRODUCT CASE STUDY</label><h2>PharmEasy Chronic Care Teardown.</h2></div><p>Product concept · Retention · Medication management</p></div>
-<div class="pharma-hero"><div><span>THE QUESTION</span><h3>Can medication management become a retention mechanism?</h3></div><div><span>THE PROPOSAL</span><p>An integrated reminder and stock-management experience that makes recurring medication easier to manage and reorder.</p></div></div>
-<div class="pharma-grid">
-<div><span>01 / PROBLEM</span><h3>Recurring medication creates recurring friction.</h3><p>Chronic patients need to manage doses, track remaining medication and remember when to reorder. That friction can contribute to churn after the first purchase.</p></div>
-<div><span>02 / DECISION</span><h3>Prioritize utility over a social dashboard.</h3><p>Three potential solutions were considered. The Reminder & Stock Management System was prioritized because the "utility gap" was a higher-impact, lower-effort lever than a Family Track portal.</p></div>
-<div><span>03 / CONCEPT</span><h3>Reminder Tab.</h3><p>Daily dosage automatically deducts stock. When less than 10 days of medication remain, the system triggers a prominent restock alert.</p></div>
-<div><span>04 / MEASUREMENT</span><h3>Measure the habit loop.</h3><p>If shipped, I'd track notification click-through rate and user churn after the "Reminder to Buy" alert is sent.</p></div>
-</div>
-<div class="habit"><span>TAKE MEDICATION</span><b>→</b><span>STOCK DECREASES</span><b>→</b><span>&lt;10 DAYS</span><b>→</b><span>REMINDER</span><b>→</b><span>REORDER</span></div>
-<a class="full-case" href="https://github.com/Allanfernandes248/PharmEasy_Case_Study_Building_solutions_for_recurring_customers/blob/main/PharmEasy%20Case%20Study.pdf" target="_blank" rel="noreferrer">Read the full case study ↗</a>
+<section id="career" class="section container">
+  <div class="section-intro"><p class="eyebrow">CAREER JOURNEY</p><h2>From product execution to building, automating and leading experimentation.</h2></div>
+  <div class="career">
+    <article class="career-item"><div class="date">JUN 2023 — OCT 2024</div><div><h3>Business Analyst</h3><p class="company">Arcon Pvt Tech Solutions</p><p class="career-kicker">Product execution before the PM title.</p><div class="metrics">
+      <div><strong>80%</strong><span>increase in efficiency from standardizing FRS documentation on Confluence.</span></div>
+      <div><strong>5%</strong><span>improvement in work-item prioritization accuracy through sprint planning.</span></div>
+      <div><strong>30+</strong><span>members supported through technical guidance.</span></div>
+      <div><strong>2</strong><span>interns mentored through the end-to-end product feature lifecycle.</span></div>
+    </div></div></article>
+    <article class="career-item"><div class="date">JAN 2025 — JUL 2025</div><div><h3>Quality Analyst</h3><p class="company">JPMorgan Chase</p><p>Responsible for testing reports and automations built through Alteryx and Python, while exploring LLMs for personal productivity.</p></div></article>
+    <article class="career-item"><div class="date">JUL 2025 — MAY 2026</div><div><h3>Quant Analyst</h3><p class="company">JPMorgan Chase</p><p>Responsible for developing reports and automations within the Consumer &amp; Community Banking space. Explored in-house LLM tools and streamlined manual workflows through Alteryx and Python.</p></div></article>
+    <article class="career-item current"><div class="date">MAY 2026 — PRESENT</div><div><h3>Quant Analyst Associate</h3><p class="company">JPMorgan Chase · Regulatory Operations</p><p>Led LLM and AI initiatives across the team and consultation to other teams within Regulatory Operations. Provided sessions on LLMs and leveraging in-house AI to increase personal productivity. Leading experimental projects, exploring new LLM features within the firm and multiple projects within the team.</p></div></article>
+  </div>
 </section>
 
-<section id="about" class="section about">
-<div class="section-head"><div><label>03 / ABOUT</label><h2>From engineering to applied AI.</h2></div></div>
-<div class="about-grid"><div>
-<p class="big">My career has moved across technology, business analysis, data and applied AI — each step shaping how I approach ambiguous problems.</p>
-<p>I enjoy understanding the problem behind the request, working within real technical constraints, and using evidence to decide what is worth building.</p>
-<div class="skills"><span>AI & LLMs</span><span>RAG</span><span>Python</span><span>SQL</span><span>BigQuery</span><span>Alteryx</span><span>FRS</span><span>Agile</span><span>UAT</span></div></div>
-<div class="timeline">
-<article><time>2020–2023</time><h3>B.E. Information Technology</h3><p>Thakur College of Engineering & Technology · 9.3 CGPA</p></article>
-<article><time>2023 →</time><h3>Business Analyst · Arcon</h3><p>Product documentation, roadmap development, sprint planning, technical guidance and Middle East product demonstrations.</p></article>
-<article><time>2025 →</time><h3>Quant Analyst · JPMorgan Chase</h3><p>Applied AI, LLM-powered automation, RAG, prompt engineering and evaluation.</p></article>
-</div></div>
-<div class="arcon"><div><label>ARCON / BUSINESS ANALYST</label><h3>Product execution before the PM title.</h3></div><div class="arcon-points">
-<p><b>80%</b> increase in efficiency from standardizing FRS documentation on Confluence.</p><p><b>5%</b> improvement in work-item prioritization accuracy through sprint planning.</p><p><b>30+</b> members supported through technical guidance.</p><p><b>2</b> interns mentored through the end-to-end product feature lifecycle.</p>
-</div></div>
-<div class="leadership"><label>LEADERSHIP</label><h3>Before the corporate roles.</h3><div class="lead-grid">
-<div><b>College Dance Team Lead</b><span>2022–2023</span><p>Managed rehearsals and coordinated inter-college competitions.</p></div>
-<div><b>TEDxTCET · Hospitality HOD</b><span>2022–2023</span><p>Managed volunteers and external vendors for speakers and attendees.</p></div>
-<div><b>Rotaract · Community Service BOD</b><span>2021–2022</span><p>Organized community service initiatives including blood donation drives and health campaigns.</p></div>
-</div></div>
+<section id="beyond" class="section container">
+  <div class="section-intro"><p class="eyebrow">BEYOND WORK</p><h2>The things that keep me curious and grounded.</h2></div>
+  <div class="beyond-grid">
+    <div><span>01</span><h3>Dance</h3><p>My true passion. I enjoy expressing myself through movement and exploring new techniques.</p></div>
+    <div><span>02</span><h3>Cricket &amp; Volleyball</h3><p>Regular games with friends and family keep me active and energized.</p></div>
+    <div><span>03</span><h3>Tutoring</h3><p>I regularly tutor and enjoy seeing students grow and make progress.</p></div>
+    <div><span>04</span><h3>Beach Walks</h3><p>Long walks by the beach are my favourite way to clear my mind.</p></div>
+  </div>
+  <div class="dogs"><p class="eyebrow">MEET THE DOGS</p><h2>Snoophy &amp; Dyson</h2><div class="dog-grid">
+    <div><h3>Snoophy</h3><p><strong>Indie</strong> · Gentle, affectionate and always happy to make new friends.</p></div>
+    <div><h3>Dyson</h3><p><strong>Lhasa Apso</strong> · A homebody who is the life of the party with his family and always looking for a snuggle.</p></div>
+  </div></div>
 </section>
 
-<section id="beyond" class="beyond"><div class="section">
-<div class="section-head"><div><label>04 / BEYOND WORK</label><h2>There is more to me than a backlog.</h2></div><p>Dance, sport, beach walks, tutoring — and two dogs who have no idea what a product roadmap is.</p></div>
-<div class="interest-grid">
-<div><span>01</span><h3>Dance</h3><p>My true passion. I enjoy expressing myself through movement and exploring new techniques.</p></div>
-<div><span>02</span><h3>Cricket & Volleyball</h3><p>Playing with friends and family is my favourite way to stay active and competitive.</p></div>
-<div><span>03</span><h3>Tutoring</h3><p>I regularly undertake tutoring sessions to assist my mother and enjoy seeing students grow.</p></div>
-<div><span>04</span><h3>Beach Walks</h3><p>A simple way to unwind, clear my mind and reset.</p></div>
-</div>
-<div class="dogs"><div class="dog-intro"><label>MEET THE DOGS</label><h3>Snoophy & Dyson.</h3><p>Two very different personalities. Both convinced the house belongs to them.</p></div>
-<div class="dog-card"><div class="dog-icon">🐶</div><h4>Snoophy</h4><span>13 · Indie</span><p>Gentle, affectionate and always eager to make friends when guests visit.</p><small>Fun fact: her mother is from London.</small></div>
-<div class="dog-card"><div class="dog-icon">🐾</div><h4>Dyson</h4><span>5 · Lhasa Apso</span><p>A homebody who is the life of the party with family and a little reserved around strangers.</p><small>Fluffy coat. Adorable face. Knows it.</small></div>
-</div></div></section>
-
-<section class="contact"><label>LET'S TALK</label><h2>Have a problem worth solving?</h2><p>AI, product, automation, data — or just an interesting conversation.</p>
-<div class="actions"><a class="btn lime" href="mailto:allanwork3112@gmail.com">Email me ↗</a><a class="btn outline" href="https://www.linkedin.com/in/allanf3112/" target="_blank">LinkedIn ↗</a><a class="btn outline" href="https://github.com/Allanfernandes248" target="_blank">GitHub ↗</a></div></section>
+<section id="writing" class="section container">
+  <div class="section-intro"><p class="eyebrow">WRITING &amp; SHARING</p><h2>Things I've found useful enough to share.</h2></div>
+  <div class="post-grid">
+    <a class="post-card" href="https://www.linkedin.com/feed/update/urn:li:activity:7020644065431990272/" target="_blank"><span>01</span><h3>Google Interview Warmup Questions</h3><p>Interview preparation resources shared on LinkedIn.</p><strong>Read on LinkedIn ↗</strong></a>
+    <a class="post-card" href="https://www.linkedin.com/posts/allanf3112_data-problemsolving-dataanalytics-share-7035821556454830080--5Fm/?utm_source=share&amp;utm_medium=member_desktop" target="_blank"><span>02</span><h3>Guesstimate Cheatsheet</h3><p>A practical reference for estimation and data problem-solving.</p><strong>Read on LinkedIn ↗</strong></a>
+    <a class="post-card" href="https://www.linkedin.com/posts/allanf3112_data-interviewprep-projects-share-7026545577228144640-l05D/?utm_source=share&amp;utm_medium=member_desktop" target="_blank"><span>03</span><h3>Must Know Interview Questions for Projects</h3><p>Project-focused questions and preparation material.</p><strong>Read on LinkedIn ↗</strong></a>
+  </div>
+</section>
 </main>
-<footer><span>© 2026 Allan Brian Fernandes</span><span>Built with HTML · CSS · JS</span></footer>
+
+<footer class="footer container">
+  <p class="eyebrow">LET'S TALK</p><h2>Have a problem worth exploring?</h2><p>I'm always interested in talking through product ideas, automation problems and interesting ways to use technology.</p>
+  <div class="footer-actions"><a class="button primary large" href="mailto:YOUR_EMAIL@example.com">Email me</a><a class="button ghost large" href="https://topmate.io/YOUR_TOPMATE" target="_blank">Book a 15-minute chat on Topmate</a><a class="text-link" href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn ↗</a></div>
+  <p class="copyright">© 2026 Allan Fernandes</p>
+</footer>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
